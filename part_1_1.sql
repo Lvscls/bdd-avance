@@ -22,10 +22,10 @@ CREATE TABLE IF NOT EXISTS session(
 );
 
 ALTER TABLE "user"
-ADD CONSTRAINT username_length CHECK (LENGTH(username) > 8);
+ADD CONSTRAINT username_length CHECK (LENGTH(username) >= 8);
 
 ALTER TABLE "user"
 ADD CONSTRAINT email_unique UNIQUE(email);
 
 ALTER TABLE "user"
-ADD CONSTRAINT password_length CHECK (LENGTH(password) > 8);
+ADD CONSTRAINT password_length CHECK (LENGTH(password) >= 8);
