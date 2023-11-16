@@ -16,7 +16,3 @@ INSERT INTO notebooks VALUES (1, 'notebook1', 1);
 INSERT INTO notebooks VALUES (2, 'notebook2', 1);
 INSERT INTO notebooks VALUES (3, 'notebook3', 2);
 
-CREATE VIEW tp_and_notebook AS 
-    SELECT tp.tp_id, tp.tp_name, notebooks.notebook_id, notebooks.notebook_name
-    FROM tp
-    LEFT JOIN notebooks ON tp.tp_id = notebooks.tp_id;
