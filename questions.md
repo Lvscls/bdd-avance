@@ -8,3 +8,6 @@ part_1_3_b : OUI
 part_1_3_c : OUI
 part_2_1 : OUI
 part_2_2 : OUI
+part_3_1 : OUI
+part_3_2 : OUI
+part_3_3 : OUI
