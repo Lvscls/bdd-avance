@@ -28,12 +28,6 @@
     source env/bin/activate
     ```
 
-2. **Exécuter le script ou l'application :**
-
-    ```bash
-    python votre_script.py
-    ```
-
 ## Remarques
 
 - Assurez-vous d'avoir Python 3.11.2 installé.
