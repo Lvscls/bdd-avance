@@ -14,3 +14,6 @@ part_3_3 : OUI
 part_4_1 : OUI
 part_4_2 : OUI
 part_4_3 : OUI
+part_5_1 : OUI
+part_5_2 : OUI
+part_5_3 : OUI
